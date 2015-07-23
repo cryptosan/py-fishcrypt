@@ -401,7 +401,7 @@ class XChatCrypt:
         self.__lockMAP = {}
         self.config = {
             'PLAINTEXTMARKER' : '+p',
-            'DEFAULTCBC' : True,
+            'DEFAULTCBC' : False,
             'DEFAULTPROTECT' : False,
             'FISHUPDATETIMEOUT' : 30,
             'MAXMESSAGELENGTH' : 300,
